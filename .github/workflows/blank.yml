@@ -27,6 +27,7 @@ jobs:
         with:
           fetch-depth: 2
       - run: git checkout HEAD^
+      - run: ls
 
       # Runs a single command using the runners shell
       - name: plantuml
