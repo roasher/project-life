@@ -1,5 +1,6 @@
 name: generate plantuml
-on: push
+#ignoring. Manual plugin trigger cause of svg generation problem
+on:
 jobs:
   generate_plantuml:
     runs-on: ubuntu-latest
